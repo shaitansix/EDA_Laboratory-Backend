@@ -78,6 +78,8 @@ desktop.ini
 *.bak
 docker-compose.override.yml
 .dockerignore
+docker-compose*.yml
+Dockerfile*
 
 # === Testing ===
 .coverage

@@ -7,7 +7,7 @@ def setup_cors(app):
       'http://localhost:5173', 
       'http://localhost:5173/', 
       'http://localhost:4173', 
-      'http://localhost:4173/',
+      'http://localhost:4173/', 
       'https://eda-laboratory-frontend.vercel.app', 
       'https://eda-laboratory-frontend.vercel.app/'
     ], 
