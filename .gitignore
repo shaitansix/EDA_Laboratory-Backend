@@ -1,0 +1,98 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Entornos virtuales ===
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === Archivos de configuración locales ===
+*.env
+*.ini
+*.cfg
+*.toml
+!.pre-commit-config.yaml
+
+# === Archivos de logs ===
+*.log
+logs/
+*.out
+*.err
+
+# === Compilaciones y distribuciones ===
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# === Caches ===
+.cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# === IDEs y editores ===
+.vscode/
+.idea/
+.spyproject/
+.ropeproject/
+*.swp
+*.swo
+
+# === Archivos temporales del sistema ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Bases de datos locales o temporales ===
+*.db
+*.sqlite3
+*.sqlite
+
+# === Archivos de FastAPI específicos (opcional) ===
+# Si usas auto-reload, puede generar archivos temporales
+*.pid
+
+# === Docker ===
+*.pid
+*.tar
+*.bak
+docker-compose.override.yml
+.dockerignore
+
+# === Testing ===
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# === PyInstaller ===
+*.manifest
+*.spec
+
+# === Uvicorn / FastAPI reload cache ===
+.reload/
+
+dataset.csv
+df_model.csv
