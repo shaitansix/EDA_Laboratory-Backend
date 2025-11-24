@@ -4,6 +4,20 @@
 ---
 ## 🚀 Quick Setup Guide
 
+## Using docker
+
+### 1. Download the Docker Hub image
+```bash
+docker pull shaitansix/eda_laboratory-api:1
+```
+
+### 2. Create a Docker container and then initialize it
+```bash
+docker run --name eda_laboratory-api -p 8000:8000 shaitansix/eda_laboratory-api:1
+```
+
+## Using Node Js
+
 ### 1. Create a folder for the project and open cmd in this folder
 
 ### 2. Clone the Repository
