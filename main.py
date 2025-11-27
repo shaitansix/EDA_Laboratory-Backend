@@ -8,7 +8,7 @@ from src.routes.chatbot import router as chatbotRouter
 from src.config.cors import setup_cors
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv('.env.dev')
 app = FastAPI(
   title = 'EDA-Laboratory API', 
   version = '1.0.0'
