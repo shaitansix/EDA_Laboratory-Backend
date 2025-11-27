@@ -4,11 +4,11 @@
 ---
 ## 🚀 Quick Setup Guide
 
+## Using docker
+
 ### 1. Configure Ollama: 
 **Create an account on [Ollama](https://ollama.com)**  
 **Add an API key to your account**
-
-## Using docker
 
 ### 2. Download the Docker Hub image
 ```bash
@@ -20,7 +20,16 @@ docker pull shaitansix/eda_laboratory-api:1
 docker run --name eda_laboratory-api -e OLLAMA_API_KEY=<your API Key> -e CORS_ORIGINS=http://localhost:5173,http://localhost:5173/,http://localhost:4173,http://localhost:4173/ -p 8000:8000 shaitansix/eda_laboratory-api:1
 ```
 
+*✔️ Backend available at:
+http://localhost:8000/  
+✔️ Documentation available at:
+http://localhost:8000/docs*
+
 ## Using Node Js
+
+### 1. Configure Ollama: 
+**Create an account on [Ollama](https://ollama.com)**  
+**Add an API key to your account**
 
 ### 2. Create a folder for the project and open cmd in this folder
 
