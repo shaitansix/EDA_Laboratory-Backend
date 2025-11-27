@@ -36,7 +36,6 @@ http://localhost:8000/docs*
 ### 3. Clone the Repository
 ```bash
 git clone https://github.com/shaitansix/EDA_Laboratory-Backend.git
-cd EDA_Laboratory-Backend
 ```
 
 ### 4. Create and activate a virtual environment
@@ -48,6 +47,7 @@ virtualenv venv
 
 ### 5. Install dependencies
 ```bash
+cd EDA_Laboratory-Backend
 pip install -r requirements.txt
 ```
 
@@ -62,7 +62,9 @@ OLLAMA_API_KEY=<your API Key>
 CORS_ORIGINS=http://localhost:5173,http://localhost:5173/,http://localhost:4173,http://localhost:4173/
 ```
 
-### 7. Run the FastAPI server; you can use any of the following commands
+### 7. Create a folder called "data" in the EDA_Laboratory-Backend folder
+
+### 8. Run the FastAPI server; you can use any of the following commands
 **Using uvicorn**
 ```bash
 uvicorn main:app --reload
