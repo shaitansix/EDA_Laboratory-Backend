@@ -52,12 +52,12 @@ pip install -r requirements.txt
 ```
 
 ### 6. Configure environment variables: 
-**Create an .env file in the EDA_Laboratory-Backend folder**  
+**Create an .env.dev file in the EDA_Laboratory-Backend folder**  
 **Create an environment variable called "OLLAMA_API_KEY" with the API Key obtained from ollama**
 ```bash
 OLLAMA_API_KEY=<your API Key>
 ```
-**Copy the following environment variable into the .env file**
+**Copy the following environment variable into the .env.dev file**
 ```bash
 CORS_ORIGINS=http://localhost:5173,http://localhost:5173/,http://localhost:4173,http://localhost:4173/
 ```
