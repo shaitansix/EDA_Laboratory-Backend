@@ -57,6 +57,10 @@ pip install -r requirements.txt
 ```bash
 OLLAMA_API_KEY=<your API Key>
 ```
+**Copy the following environment variable into the .env file**
+```bash
+CORS_ORIGINS=http://localhost:5173,http://localhost:5173/,http://localhost:4173,http://localhost:4173/
+```
 
 ### 7. Run the FastAPI server; you can use any of the following commands
 **Using uvicorn**
