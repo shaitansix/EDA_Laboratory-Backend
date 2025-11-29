@@ -25,7 +25,7 @@ http://localhost:8000/
 ✔️ Documentation available at:
 http://localhost:8000/docs*
 
-## Using Node Js
+## Using Fastapi
 
 ### 1. Configure Ollama: 
 **Create an account on [Ollama](https://ollama.com)**  
